@@ -1,0 +1,1 @@
+This folder is a test to know whether the development environment is set up correctly
