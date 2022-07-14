@@ -30,9 +30,9 @@ namespace lve
     void first_app::loadModels()
     {
         std::vector<LveModel::Vertex> vertices{
-            {{0.0, -0.5}}, 
-            {{0.5, 0.5}},
-            {{-0.5, 0.5}}
+            {{0.0f, -0.5f}, {1.0f, 0.0f, 0.0f}}, 
+            {{0.5f, 0.5f}, {0.0f, 1.0f, 0.0f}},
+            {{-0.5f, 0.5f}, {0.0f, 0.0f, 1.0f}}
         };
 
         model = std::make_unique<LveModel>(device, vertices);
